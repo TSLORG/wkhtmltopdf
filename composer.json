@@ -1,5 +1,5 @@
 {
-    "name": "kingfoo/wkhtmltopdf",
+    "name": "tsl/wkhtmltopdf",
     "description": "PHP library for the wkhtmltopdf utility",
     "homepage": "https://git.king-foo.net/gerry/wkhtmltopdf",
     "authors": [
@@ -24,5 +24,9 @@
         "bin/amd64/bin/wkhtmltoimage-amd64",
         "bin/i386/bin/wkhtmltopdf-i386",
         "bin/i386/bin/wkhtmltoimage-i386"
-    ]
+    ],
+    "dist": {
+        "url": "git@github.com:TSLORG/wkhtmltopdf.git",
+        "type": "git"
+    }
 }
